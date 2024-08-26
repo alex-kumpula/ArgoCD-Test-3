@@ -21,6 +21,13 @@ apps:
       chart: nginx
       repoURL: registry-1.docker.io/bitnamicharts
       targetRevision: 15.9.0
+  sealed-secrets-controller:
+    enabled: false
+    namespace: default
+    source:
+      chart: sealed-secrets
+      repoURL: https://bitnami-labs.github.io/sealed-secrets
+      targetRevision: 2.15.4
 
 
 
