@@ -2,5 +2,5 @@ env: prod
 apps:
   nginx:
     enabled: true
-  sealed-secrets-controller:
+  sealedSecretsController:
     enabled: true
