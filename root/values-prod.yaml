@@ -3,4 +3,4 @@ apps:
   nginx:
     enabled: true
   sealedSecretsController:
-    enabled: true
+    enabled: false
