@@ -1,7 +1,4 @@
 env: dev
 apps:
-  nginx:
-    enabled: false
-    
-
-
+  sealedSecretsController:
+    enabled: true
